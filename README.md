@@ -49,7 +49,7 @@ PRODIGY_WD_02/
 ## 🌐 Live Demo
 
 🔗 **Live Project Link:**  
-https://kingscar19.github.io/PRODIGY_WD_02/
+https://anujlokhande.github.io/PRODIGY_WD_02/
 
 ---
 
