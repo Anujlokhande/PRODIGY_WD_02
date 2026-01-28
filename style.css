@@ -1,0 +1,110 @@
+/* Name / Author */
+.author {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  color: #94a3b8;
+  margin-bottom: 6px;
+}
+
+.author span {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', monospace;
+}
+
+body {
+  height: 100vh;
+  background: #050b1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+}
+
+.app {
+  width: 360px;
+  background: #020617;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 0 40px rgba(56, 189, 248, 0.15);
+  text-align: center;
+}
+
+.app h1 {
+  font-size: 1rem;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.circle {
+  width: 240px;
+  height: 240px;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, #020617 60%, transparent 61%),
+    conic-gradient(#38bdf8 0deg, #1e293b 0deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 25px rgba(56,189,248,0.4),
+              0 0 25px rgba(56,189,248,0.3);
+}
+
+#display {
+  font-size: 2.3rem;
+  letter-spacing: 2px;
+  color: #e0f2fe;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.controls button {
+  padding: 10px 0;
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 6px;
+  color: #38bdf8;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.controls button:hover {
+  background: #38bdf8;
+  color: #020617;
+  box-shadow: 0 0 10px rgba(56,189,248,0.7);
+}
+
+.controls button:active {
+  transform: scale(0.92);
+}
+
+.laps-box {
+  max-height: 120px;
+  overflow-y: auto;
+  border-top: 1px solid #1e293b;
+  padding-top: 10px;
+}
+
+.laps-box li {
+  list-style: none;
+  font-size: 0.75rem;
+  padding: 6px;
+  border-bottom: 1px dashed #1e293b;
+  color: #c7d2fe;
+}
